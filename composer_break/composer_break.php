@@ -14,8 +14,8 @@ function composer_break_config() {
 
 function composer_break_activate() {
     if (Client::VERSION !== '5.0.0') {
-        return array('status'=>'error','description'=>'Using wrong Guzzle version');
+        return array('status'=>'error','description'=>'Using wrong Guzzle version ' . Client::VERSION);
     }
 
-    return array('status'=>'success','description'=>'Foudn correct version of Guzzle');
+    return array('status'=>'success','description'=>'Found correct version of Guzzle');
 }
