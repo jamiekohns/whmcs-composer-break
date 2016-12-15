@@ -1,0 +1,12 @@
+{
+  "name": "jamiekohns/whmcs-composer-break",
+  "type": "library",
+  "description": "POC module showing autoloader order can break modules",
+  "keywords": ["whmcs","composer"],
+  "homepage": "http://github.com/jamiekohns/whmcs-composer-break",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.6.0",
+    "guzzlehttp/guzzle": "5.0.0"
+  }
+}
