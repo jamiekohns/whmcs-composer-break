@@ -12,7 +12,7 @@ function composer_break_config() {
     return $configarray;
 }
 
-function demo_activate() {
+function composer_break_activate() {
     if (Client::VERSION !== '5.0.0') {
         return array('status'=>'error','description'=>'Using wrong Guzzle version');
     }
